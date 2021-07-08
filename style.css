@@ -8,6 +8,9 @@ marquee h1{
     color: crimson;
     font-family: sans-serif;
 }
+marquee h2{
+    color: forestgreen;
+}
 
 header{
     width: 100%;
@@ -48,7 +51,7 @@ header{
 }
 .nav-menu{
     top: 20%;
-    left: 60%;
+    left: 15%;
     position: relative;
 }
 .nav-menu ul li{
@@ -58,14 +61,17 @@ header{
 }
 .nav-menu ul li a{
     text-decoration: none;
-    color: crimson;
-    font-family: fantasy;
+    color: orange;
+    font-family: sans-serif;
     font-size: 30px;
     transition: .3s linear;
 }
 .nav-menu ul li a:hover{
-    border-bottom: 2px solid red;
-    padding-bottom: 5px;
+    background-color: slateblue;
+    border: 2px solid crimson;
+    border-radius: 20px;
+    padding: 5px;
+    
 }
 
 
@@ -130,4 +136,12 @@ header{
 .display img{
     width: 40%;
     height: 40%;
+}
+section{
+    display: flex;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 600px;
+    margin-top: 50px;
+    
 }
